@@ -1,0 +1,34 @@
+header{
+    text-align: center;
+    background: #6cf;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background:#6cf;
+}
+
+#col {
+    float: left;
+}
+
+#left{
+    display: table-cell;
+    width: 25%;
+    padding: 50px;
+    background: green;
+}
+
+#right{
+    display: table-cell;
+    width: 70%;
+    padding-right: 100px;
+    background: yellow;
+}

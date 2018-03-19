@@ -1,0 +1,34 @@
+.modal-dialog{
+    display: block;
+    position:fixed;
+    margin: 10% 35%;
+	background:gray;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 4%;
+}
+
+.modal-header{
+    background: gray;
+    padding: 10px;
+    font-size: 2rem;
+    color:white;
+}
+
+.modal-content{
+    background: white;
+    padding: 10px;
+}
+
+.modal-buttons{
+    display: inline-flex;
+    float: right;
+    background: white;
+    padding:10px;
+    padding-left:260px;
+    padding-right: 10px;
+}
+
+body {
+    background: rgb(211, 211, 211);
+}
