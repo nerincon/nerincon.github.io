@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 100%;
+    background: wheat;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: lightblue;
+    padding-top:50px;
+}
+
+#col{
+    display: flex;
+    flex-flow: row;
+}
+
+#left{
+    display: flex;
+    width: 23%;
+    background: blue;
+    padding-right: 2%;
+    flex-flow: row wrap;
+    padding-bottom: 80px;
+}
+
+#right{
+    display: flex;
+    width:73%;
+    padding-right:2%;
+    background: yellow;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
