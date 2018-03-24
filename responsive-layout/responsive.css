@@ -6,6 +6,7 @@ body {
     margin-top: 500px;
     padding-top: 5%;
     background-color: white;
+    position: relative;
 }
 
 .col-8{
@@ -26,6 +27,13 @@ body {
 }
 
 .nav-item {
+  background-color: white;
+}
+
+.navbar-collapse {
+  position:absolute;
+  top:48px;
+  width: 100px;
   background-color: white;
 }
 
